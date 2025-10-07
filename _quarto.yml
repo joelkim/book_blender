@@ -25,9 +25,17 @@ website:
     search: true
     contents:
       - "index.ipynb"
-      - section: "소개"
+      - section: "블렌더"
+        contents:
+        - "intro.ipynb"
+        - "start.ipynb"
+      - section: "인터페이스"
         contents:
         - "interface.ipynb"
+        - "3dviewport.ipynb"
+        - "viewpoint.ipynb"
+        - "select.ipynb"
+        - "transform.ipynb"
       - section: "3D 모델링"
         contents:
         - "3d_intro.ipynb"
