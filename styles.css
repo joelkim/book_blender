@@ -72,3 +72,12 @@ div.ansi-escaped-output pre {
 }
 
 .quarto-figure { margin: 2rem 0; }
+
+table tbody tr td {
+  vertical-align: middle;
+}
+
+table tbody tr td p {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}

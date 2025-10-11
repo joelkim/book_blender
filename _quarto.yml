@@ -41,8 +41,12 @@ website:
       - section: "3D 모델링"
         contents:
         - "3d_intro.ipynb"
-        - "transform.ipynb"
+        - "transform_object.ipynb"
+        - "transform_edit.ipynb"
         - "add.ipynb"
       - section: "2D 애니메이션"
         contents:
         - "2d_intro.ipynb"
+      - section: "부록"
+        contents:
+        - "shortcuts.ipynb"
