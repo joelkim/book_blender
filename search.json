@@ -1,0 +1,661 @@
+[
+  {
+    "objectID": "viewpoint.html",
+    "href": "viewpoint.html",
+    "title": "시점 변경",
+    "section": "",
+    "text": "회전, 오비팅(orbiting): 시점의 각도 변경\n이동, 패닝(panning): 시점의 평행 변경\n확대, 주밍(zooming): 시점의 거리 변경",
+    "crumbs": [
+      "인터페이스",
+      "시점 변경"
+    ]
+  },
+  {
+    "objectID": "viewpoint.html#기본-동작",
+    "href": "viewpoint.html#기본-동작",
+    "title": "시점 변경",
+    "section": "",
+    "text": "회전, 오비팅(orbiting): 시점의 각도 변경\n이동, 패닝(panning): 시점의 평행 변경\n확대, 주밍(zooming): 시점의 거리 변경",
+    "crumbs": [
+      "인터페이스",
+      "시점 변경"
+    ]
+  },
+  {
+    "objectID": "viewpoint.html#마우스-및-터치패드를-사용한-시점-변경",
+    "href": "viewpoint.html#마우스-및-터치패드를-사용한-시점-변경",
+    "title": "시점 변경",
+    "section": "마우스 및 터치패드를 사용한 시점 변경",
+    "text": "마우스 및 터치패드를 사용한 시점 변경\n\n마우스: 가운데 클릭 + 움직임\n터치패드: 더블 터치 + 움직임\n오비팅: 움직임\n패닝: Shift키 + 움직임\n주밍: Control키 + 움직임",
+    "crumbs": [
+      "인터페이스",
+      "시점 변경"
+    ]
+  },
+  {
+    "objectID": "viewpoint.html#기즈모를-사용한-시점-변경",
+    "href": "viewpoint.html#기즈모를-사용한-시점-변경",
+    "title": "시점 변경",
+    "section": "기즈모를 사용한 시점 변경",
+    "text": "기즈모를 사용한 시점 변경\n\n\n\n그림: 시점 변경 위젯",
+    "crumbs": [
+      "인터페이스",
+      "시점 변경"
+    ]
+  },
+  {
+    "objectID": "viewpoint.html#뷰-메뉴를-사용한-시점-변경",
+    "href": "viewpoint.html#뷰-메뉴를-사용한-시점-변경",
+    "title": "시점 변경",
+    "section": "뷰 메뉴를 사용한 시점 변경",
+    "text": "뷰 메뉴를 사용한 시점 변경\n\n“View &gt; Viewpoint”\n\n\n\n\n그림: View &gt; Viewpoint 메뉴\n\n\n\n“View &gt; Navigation”\n\n\n\n\n그림: View &gt; Navigation 메뉴",
+    "crumbs": [
+      "인터페이스",
+      "시점 변경"
+    ]
+  },
+  {
+    "objectID": "viewpoint.html#단축키를-사용한-시점-변경",
+    "href": "viewpoint.html#단축키를-사용한-시점-변경",
+    "title": "시점 변경",
+    "section": "단축키를 사용한 시점 변경",
+    "text": "단축키를 사용한 시점 변경\n\nNumpad 숫자키로 변경\n\n노트북인 경우에는 “Edit &gt; Preference” 메뉴에서 “Input &gt; Keyboard &gt; Emulate Numpad” 설정을 해야 함\n\n\n\n\n\n그림: Emulate Numpad 설정\n\n\n\n기본 방향\n\n1: 앞 (-Y)\n3: 오른쪽 (X)\n7: 위 (Z)\n\n전환:\n\n9: 반대방향\n5: Perspective/Othographic\n0: Camera/User\n\n회전(오비팅)\n\n2/8: 위/아래 회전\n4/6: 좌/우 회전\n\n이동(패닝)\n\n2/8: 위/아래 이동\n4/6: 좌/우 이동\n\n확대\n\n-/=: 확대/축소",
+    "crumbs": [
+      "인터페이스",
+      "시점 변경"
+    ]
+  },
+  {
+    "objectID": "viewpoint.html#쿼드-뷰",
+    "href": "viewpoint.html#쿼드-뷰",
+    "title": "시점 변경",
+    "section": "쿼드 뷰",
+    "text": "쿼드 뷰\n\n4가지 시점을 동시에 보는 뷰\n“View &gt; Area &gt; Toggle Quad View” 또는 control + alt + q\n\n\n\n\n그림: 쿼드 뷰 선택 메뉴",
+    "crumbs": [
+      "인터페이스",
+      "시점 변경"
+    ]
+  },
+  {
+    "objectID": "viewpoint.html#회전-중심",
+    "href": "viewpoint.html#회전-중심",
+    "title": "시점 변경",
+    "section": "회전 중심",
+    "text": "회전 중심\n\n회전의 중심은 기본적으로 보이는 화면의 중심\n원하는 경우 “View Lock” 설정으로 다음과 같이 지정 가능\n\n“객체”\n“3D 커서”\n\n\n\nView Lock\n\n사이드바의 “View” 탭 &gt; View &gt; View Lock\n\n\n\n\n그림: 사이드바의 View Lock 메뉴\n\n\n\n\n3D Cursor\n\n회전 중심 역할\n이동 방법\n\nshift+우클릭\n툴바의 cursor 툴로 이동 가능\nshift+s 메뉴로도 이동 가능\n\nshift+c 단축키로 world origin 위치 복귀\n\n\n\n\n그림: 3D Cursor\n\n\n\n\n\n그림: 툴바의 커서 툴\n\n\n\n사이드바의 “View” &gt; “3D Cursor”에서 위치 설정 가능\n\n\n\n\n그림: 사이드바 View &gt; 3D Cursor",
+    "crumbs": [
+      "인터페이스",
+      "시점 변경"
+    ]
+  },
+  {
+    "objectID": "transform_edit.html",
+    "href": "transform_edit.html",
+    "title": "에디트 모드 변형",
+    "section": "",
+    "text": "에디트 모드에서는 vertex, edge, face 단위로 변형 가능",
+    "crumbs": [
+      "3D 모델링",
+      "에디트 모드 변형"
+    ]
+  },
+  {
+    "objectID": "transform_edit.html#joining-and-separating",
+    "href": "transform_edit.html#joining-and-separating",
+    "title": "에디트 모드 변형",
+    "section": "Joining and Separating",
+    "text": "Joining and Separating",
+    "crumbs": [
+      "3D 모델링",
+      "에디트 모드 변형"
+    ]
+  },
+  {
+    "objectID": "transform_edit.html#subdivide",
+    "href": "transform_edit.html#subdivide",
+    "title": "에디트 모드 변형",
+    "section": "Subdivide",
+    "text": "Subdivide",
+    "crumbs": [
+      "3D 모델링",
+      "에디트 모드 변형"
+    ]
+  },
+  {
+    "objectID": "transform_edit.html#inset-face",
+    "href": "transform_edit.html#inset-face",
+    "title": "에디트 모드 변형",
+    "section": "Inset Face",
+    "text": "Inset Face",
+    "crumbs": [
+      "3D 모델링",
+      "에디트 모드 변형"
+    ]
+  },
+  {
+    "objectID": "transform_edit.html#parenting",
+    "href": "transform_edit.html#parenting",
+    "title": "에디트 모드 변형",
+    "section": "Parenting",
+    "text": "Parenting",
+    "crumbs": [
+      "3D 모델링",
+      "에디트 모드 변형"
+    ]
+  },
+  {
+    "objectID": "transform_edit.html#extrude",
+    "href": "transform_edit.html#extrude",
+    "title": "에디트 모드 변형",
+    "section": "Extrude",
+    "text": "Extrude",
+    "crumbs": [
+      "3D 모델링",
+      "에디트 모드 변형"
+    ]
+  },
+  {
+    "objectID": "shortcuts.html",
+    "href": "shortcuts.html",
+    "title": "단축키",
+    "section": "",
+    "text": "키\n기능\n\n\n\n\nFn-Ctrl-UpFn-Ctrl-Up\nprev workspace\n\n\nFn-Ctrl-DownFn-Ctrl-Down\nnext workspace\n\n\nTabTab\nobject mode \\(\\leftrightarrow\\) edit mode\n\n\nCtrl-TabCtrl-Tab\npie menu\n\n\ntt\n3D Viewport toolbar show/hide\n\n\nnn\n3D Viewport sidebar show/hide\n\n\nshift-spaceshift-space\n3D Viewport toolbar context menu\n\n\nshift-ashift-a\nadd\n\n\naa\nselect all\n\n\noption-aoption-a\ndeselect all\n\n\nll\nselect linked\n\n\nshift-lshift-l\ndeselect linked",
+    "crumbs": [
+      "부록",
+      "단축키"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blender Book",
+    "section": "",
+    "text": "chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/file:///Users/joelkim/Work/study/study_drawing/book/Tools/Blender/Acampora/2023%20-%20Acampora%20-%20Python%20Scripting%20in%20Blender.pdf\nchrome-extension://oemmndcbldboiebfnladdacbdfmadadm/file:///Users/joelkim/Work/study/study_drawing/book/Tools/Blender/Gumster/2024%20-%20Gumster%20-%20Blender%20All-in-One%20For%20Dummies.pdf\nchrome-extension://oemmndcbldboiebfnladdacbdfmadadm/file:///Users/joelkim/Work/study/study_drawing/book/Tools/Blender/Blain23/2023%20-%20Blain%20-%20The%20Complete%20Guide%20to%20Blender%20Graphics%208th%20edition%20volume%201.pdf",
+    "crumbs": [
+      "Blender Book"
+    ]
+  },
+  {
+    "objectID": "3dviewport.html",
+    "href": "3dviewport.html",
+    "title": "3D 뷰포트 에디터",
+    "section": "",
+    "text": "가장 많이 사용하는 기본 에디터\n구성 요소\n\n에디터 셀렉터\n모드 셀렉터\n셀렉트 모두 툴\n메뉴\n트랜스포메이션 툴\n스냅 툴\n프로포셔널 에디트 툴\n셀렉터빌리티/비저빌리티 툴\n기즈모 툴\n오버레이즈 툴\n메시 에디트 툴\n렌더 툴\n툴바\n기즈모\n사이드바",
+    "crumbs": [
+      "인터페이스",
+      "3D 뷰포트 에디터"
+    ]
+  },
+  {
+    "objectID": "3dviewport.html#모드-셀렉터",
+    "href": "3dviewport.html#모드-셀렉터",
+    "title": "3D 뷰포트 에디터",
+    "section": "모드 셀렉터",
+    "text": "모드 셀렉터\n\n3D 뷰포트는 6개의 모드 제공\n\nObject Mode\nEditor Mode\nSculpt Mode\nVertex Paint\nWeight Paint\nTexture Paint\n\n\n\n\n\n그림: 3D 뷰포트 모드\n\n\n\n모드가 바뀌면 메뉴, 툴바 등을 포함한 다른 구성요소들도 바뀜",
+    "crumbs": [
+      "인터페이스",
+      "3D 뷰포트 에디터"
+    ]
+  },
+  {
+    "objectID": "3dviewport.html#오브젝트-모드와-에디트-모드",
+    "href": "3dviewport.html#오브젝트-모드와-에디트-모드",
+    "title": "3D 뷰포트 에디터",
+    "section": "오브젝트 모드와 에디트 모드",
+    "text": "오브젝트 모드와 에디트 모드\n\n가장 기본 모드는 오브젝트 모드와 에디트 모드\n오브젝트 모드와 에디트 모드 변환 단축키: 탭(Tab)\n오브젝트 모드와 에디트 모드 비교\n\n오브젝트 모드: 오브젝트 하나를 편집 가능 (이동, 확대 등)\n에디트 모드: 오브젝트를 구성하는 점, 선, 면을 개별적으로 편집 가능 (모양의 변형)\n\n\n\n\n\n그림: 3D 뷰포트 에디터(오브젝트 모드)\n\n\n\n\n\n그림: 3D 뷰포트 에디터(에디트 모드)\n\n\n\n에디트 모드 주의점\n\n에디트 모드는 오브젝트 모드에서 일단 선택된 하나의 객체에 대해서만 적용된다.\n오브젝트 모드에서 여러개의 객체를 shift로 선택한 경우에는 해당 선택 객체 모두에 대해 동시 에디트 모드 선택이 가능\n에디팅이 불가능한 객체(카메라, 라이트 등)에 대해서는 에디트 모드 전환할 수 없다.",
+    "crumbs": [
+      "인터페이스",
+      "3D 뷰포트 에디터"
+    ]
+  },
+  {
+    "objectID": "3dviewport.html#셀렉트-모드-툴",
+    "href": "3dviewport.html#셀렉트-모드-툴",
+    "title": "3D 뷰포트 에디터",
+    "section": "셀렉트 모드 툴",
+    "text": "셀렉트 모드 툴\n\n에디트 모드에서만 보임\n1, 2, 3 숫자키로 단축키 선택 가능\n\n\n\n\n그림: 셀렉트 모드 툴",
+    "crumbs": [
+      "인터페이스",
+      "3D 뷰포트 에디터"
+    ]
+  },
+  {
+    "objectID": "3dviewport.html#메뉴",
+    "href": "3dviewport.html#메뉴",
+    "title": "3D 뷰포트 에디터",
+    "section": "메뉴",
+    "text": "메뉴\n\n모드에 따라 메뉴가 바뀜\n\n\n오브젝트 모드 메뉴\n\n뷰(View)\n셀렉트(Select)\n애드(Add)\n오브젝트(Object)\n\n\n\n에디트 모드 메뉴\n\n뷰(View)\n셀렉트(Select)\n애드(Add)\n메쉬(Mesh)\n버텍스(Vertex)\n엣지(Edge)\n페이스(Face)\nUV",
+    "crumbs": [
+      "인터페이스",
+      "3D 뷰포트 에디터"
+    ]
+  },
+  {
+    "objectID": "3dviewport.html#셀렉터빌리티비저빌리티-툴",
+    "href": "3dviewport.html#셀렉터빌리티비저빌리티-툴",
+    "title": "3D 뷰포트 에디터",
+    "section": "셀렉터빌리티/비저빌리티 툴",
+    "text": "셀렉터빌리티/비저빌리티 툴\n\n마우스 기호: 셀렉터빌리티. 선택 가능 여부\n눈 기호: 비저빌리티. 보이는지 여부\n\n\n\n\n그림: 셀렉터빌리티/비저빌리티 툴",
+    "crumbs": [
+      "인터페이스",
+      "3D 뷰포트 에디터"
+    ]
+  },
+  {
+    "objectID": "3dviewport.html#기즈모-툴",
+    "href": "3dviewport.html#기즈모-툴",
+    "title": "3D 뷰포트 에디터",
+    "section": "기즈모 툴",
+    "text": "기즈모 툴\n\n\n\n그림: 기즈모 툴",
+    "crumbs": [
+      "인터페이스",
+      "3D 뷰포트 에디터"
+    ]
+  },
+  {
+    "objectID": "3dviewport.html#오버레이즈-툴",
+    "href": "3dviewport.html#오버레이즈-툴",
+    "title": "3D 뷰포트 에디터",
+    "section": "오버레이즈 툴",
+    "text": "오버레이즈 툴\n\n추가 정보의 표시 여부\n오브젝트 모드와 에디트 모드가 다름\n\n\n\n\n그림: 오버레이즈 툴",
+    "crumbs": [
+      "인터페이스",
+      "3D 뷰포트 에디터"
+    ]
+  },
+  {
+    "objectID": "3dviewport.html#메시-에디트-툴",
+    "href": "3dviewport.html#메시-에디트-툴",
+    "title": "3D 뷰포트 에디터",
+    "section": "메시 에디트 툴",
+    "text": "메시 에디트 툴\n\n에디트 모드에서만 보임\n\n\n\n\n그림: 메시 에디트 툴",
+    "crumbs": [
+      "인터페이스",
+      "3D 뷰포트 에디터"
+    ]
+  },
+  {
+    "objectID": "3dviewport.html#렌더-툴",
+    "href": "3dviewport.html#렌더-툴",
+    "title": "3D 뷰포트 에디터",
+    "section": "렌더 툴",
+    "text": "렌더 툴\n\n\n\n그림: 렌더 아이콘\n\n\n\n와이어프레임(Wireframe): 뼈대만\n솔리드(Solid): 기본\n머터리얼 프리뷰(Material Preview): 재질\n렌더드(Rendered): 조명까지",
+    "crumbs": [
+      "인터페이스",
+      "3D 뷰포트 에디터"
+    ]
+  },
+  {
+    "objectID": "3dviewport.html#툴바",
+    "href": "3dviewport.html#툴바",
+    "title": "3D 뷰포트 에디터",
+    "section": "툴바",
+    "text": "툴바\n\n작업도구\n단축키: t\n모드에 따라 달라짐\n\n\n\n\n그림: 오브젝트 모드 툴바",
+    "crumbs": [
+      "인터페이스",
+      "3D 뷰포트 에디터"
+    ]
+  },
+  {
+    "objectID": "3dviewport.html#기즈모",
+    "href": "3dviewport.html#기즈모",
+    "title": "3D 뷰포트 에디터",
+    "section": "기즈모",
+    "text": "기즈모",
+    "crumbs": [
+      "인터페이스",
+      "3D 뷰포트 에디터"
+    ]
+  },
+  {
+    "objectID": "3dviewport.html#사이드바",
+    "href": "3dviewport.html#사이드바",
+    "title": "3D 뷰포트 에디터",
+    "section": "사이드바",
+    "text": "사이드바\n\n단축키: n\n탭\n\n아이템: 선택된 아이템의 위치 등\n툴\n뷰\n\n\n\n\n\n그림: 사이드바(아이템)",
+    "crumbs": [
+      "인터페이스",
+      "3D 뷰포트 에디터"
+    ]
+  },
+  {
+    "objectID": "3dviewport.html#last-operator-panel",
+    "href": "3dviewport.html#last-operator-panel",
+    "title": "3D 뷰포트 에디터",
+    "section": "Last Operator panel",
+    "text": "Last Operator panel\n\n생성/변환 연산을 하면 왼쪽 아래에 생기는 패널\n생성/변환 연산을 하지 않으면 보이지 않는다.",
+    "crumbs": [
+      "인터페이스",
+      "3D 뷰포트 에디터"
+    ]
+  },
+  {
+    "objectID": "2d_intro.html",
+    "href": "2d_intro.html",
+    "title": "2차원 애니메이션",
+    "section": "",
+    "text": "블렌더의 ’그리스 펜슬(Grease Pencil)’은 2D 애니메이션을 3D 환경에서 제작할 수 있게 해주는 기능\n이름이 ’그리스 펜슬’이라고 붙은 이유\n\n전통적인 애니메이션 제작 방식에서 유래\n과거에는 애니메이션 작업을 할 때 셀(cell)에 그림을 그리고, 그 셀을 카메라 앞에 놓고 촬영\n이때 셀에 표시된 중요한 마커나 프레임 번호 등을 표시하기 위해 ’그리스 펜슬’이라는 특수 연필을 사용\n그리스 펜슬은 왁스 기반이라서 부드럽게 잘 그려지고, 쉽게 지울 수 있음\n\n블렌더의 ’그리스 펜슬’은 이러한 전통적인 도구의 개념을 디지털 환경으로 가져와, 3D 공간에 그림을 그리거나 애니메이션을 만들 수 있게 함\n3D 모델 위에 스케치를 하거나, 2D 캐릭터를 만들어 3D 공간에서 움직이는 것처럼 보이게 하는 데 사용",
+    "crumbs": [
+      "2D 애니메이션",
+      "2차원 애니메이션"
+    ]
+  },
+  {
+    "objectID": "2d_intro.html#그리스-펜슬-grease-pencil",
+    "href": "2d_intro.html#그리스-펜슬-grease-pencil",
+    "title": "2차원 애니메이션",
+    "section": "",
+    "text": "블렌더의 ’그리스 펜슬(Grease Pencil)’은 2D 애니메이션을 3D 환경에서 제작할 수 있게 해주는 기능\n이름이 ’그리스 펜슬’이라고 붙은 이유\n\n전통적인 애니메이션 제작 방식에서 유래\n과거에는 애니메이션 작업을 할 때 셀(cell)에 그림을 그리고, 그 셀을 카메라 앞에 놓고 촬영\n이때 셀에 표시된 중요한 마커나 프레임 번호 등을 표시하기 위해 ’그리스 펜슬’이라는 특수 연필을 사용\n그리스 펜슬은 왁스 기반이라서 부드럽게 잘 그려지고, 쉽게 지울 수 있음\n\n블렌더의 ’그리스 펜슬’은 이러한 전통적인 도구의 개념을 디지털 환경으로 가져와, 3D 공간에 그림을 그리거나 애니메이션을 만들 수 있게 함\n3D 모델 위에 스케치를 하거나, 2D 캐릭터를 만들어 3D 공간에서 움직이는 것처럼 보이게 하는 데 사용",
+    "crumbs": [
+      "2D 애니메이션",
+      "2차원 애니메이션"
+    ]
+  },
+  {
+    "objectID": "add.html",
+    "href": "add.html",
+    "title": "객체 추가",
+    "section": "",
+    "text": "그림: 객체 추가 메뉴",
+    "crumbs": [
+      "3D 모델링",
+      "객체 추가"
+    ]
+  },
+  {
+    "objectID": "add.html#메뉴",
+    "href": "add.html#메뉴",
+    "title": "객체 추가",
+    "section": "",
+    "text": "그림: 객체 추가 메뉴",
+    "crumbs": [
+      "3D 모델링",
+      "객체 추가"
+    ]
+  },
+  {
+    "objectID": "add.html#단축키",
+    "href": "add.html#단축키",
+    "title": "객체 추가",
+    "section": "단축키",
+    "text": "단축키\n\nshift-ashift-a\n\n\n\n\n그림: 객체 추가 컨텍스트 메뉴",
+    "crumbs": [
+      "3D 모델링",
+      "객체 추가"
+    ]
+  },
+  {
+    "objectID": "add.html#기본-생성-위치-및-크기",
+    "href": "add.html#기본-생성-위치-및-크기",
+    "title": "객체 추가",
+    "section": "기본 생성 위치 및 크기",
+    "text": "기본 생성 위치 및 크기\n\n현재 3D Cursor 위치에 오브젝트 오리진이 오도록 생성됨\nScene unit 기준으로 크기가 정해짐",
+    "crumbs": [
+      "3D 모델링",
+      "객체 추가"
+    ]
+  },
+  {
+    "objectID": "add.html#이름",
+    "href": "add.html#이름",
+    "title": "객체 추가",
+    "section": "이름",
+    "text": "이름",
+    "crumbs": [
+      "3D 모델링",
+      "객체 추가"
+    ]
+  },
+  {
+    "objectID": "interface.html",
+    "href": "interface.html",
+    "title": "인터페이스",
+    "section": "",
+    "text": "블렌더 인터페이스는 다음과 같은 구조로 구성된다.\n\n메인 윈도우(main window)\n워크스페이스(workspace)\n에어리어(area)\n에디터(editor)",
+    "crumbs": [
+      "인터페이스",
+      "인터페이스"
+    ]
+  },
+  {
+    "objectID": "interface.html#메인-윈도우",
+    "href": "interface.html#메인-윈도우",
+    "title": "인터페이스",
+    "section": "메인 윈도우",
+    "text": "메인 윈도우\n\n\n\n그림: 메인 윈도우의 구성\n\n\n\n메인 윈도우는 좌측부터 다음과 같이 구성된다.\n\n블렌더 아이콘\n메뉴\n기본 워크스페이스 목록\n워크스페이스 추가 아이콘\n신 셀렉터\n레이어 셀렉터",
+    "crumbs": [
+      "인터페이스",
+      "인터페이스"
+    ]
+  },
+  {
+    "objectID": "interface.html#워크스페이스",
+    "href": "interface.html#워크스페이스",
+    "title": "인터페이스",
+    "section": "워크스페이스",
+    "text": "워크스페이스\n\n워크스페이스는 “미리 정해진 에이리어와 에디터의 조합”이다.\n워크스페이스의 종류는 5가지 카테고리의 총 23개이다.\n\nGeneral (11개)\n\nAnimation\nCompositing\nLayout\nModeling\n\n2D Animation (4개)\n\n2D Animation\n\nSculpting (2개)\n\nScupting\n\nVFX (4개)\n\nCompositing\n\nVideo Editing (2개)\n\nRendering\n\n\n가장 기본적인 워크스페이스는 모델링(Modeling) 워크스페이스다.\n여기에서는 모델링 워크스페이스부터 사용한다.\n\n\n워크스페이스 이동\n\n워크스페이스 이동 단축키: Ctrl+PageUpCtrl+PageUp 또는 Ctrl+PageDownCtrl+PageDown",
+    "crumbs": [
+      "인터페이스",
+      "인터페이스"
+    ]
+  },
+  {
+    "objectID": "interface.html#에어리어",
+    "href": "interface.html#에어리어",
+    "title": "인터페이스",
+    "section": "에어리어",
+    "text": "에어리어\n\n에어리어는 화면의 영역을 나타낸다.\n에어리어의 경계에서는 마우스가 달라진다.\n\n선 경계\n\n경계선의 위치를 옮겨서 영역의 비율을 조정할 수 있다\n\n점 경계\n\n에어리어를 분할할 수 있다.\n\n\n영역 변경을 한 경우에는 Undo 명령으로 되돌릴 수 없음. 디폴트 설정을 로드해야 함\n경계선에서 우클릭을 하면 에어리어 옵션(area option) 표시\n\nvertical split\nhorizontal split\njoin right\njoin left\njoin up\njoin down\nswap areas\n\n\n\n\n\n그림: 에어리어 옵션\n\n\n\n\n\n그림: 에어리어 옵션",
+    "crumbs": [
+      "인터페이스",
+      "인터페이스"
+    ]
+  },
+  {
+    "objectID": "interface.html#에디터",
+    "href": "interface.html#에디터",
+    "title": "인터페이스",
+    "section": "에디터",
+    "text": "에디터\n\n각 에어리어는 하나의 에디터가 될 수 있다.\n에디터의 종류는 4가지 카테고리의 총 23개이다.\n각 에디터 별로 서로 다른 로고 아이콘을 가진다.\n\n\n\n\n그림: 에디터의 종류\n\n\n\n가장 기본적이고 많이 사용하는 에디터는 “3D Viewport”다.",
+    "crumbs": [
+      "인터페이스",
+      "인터페이스"
+    ]
+  },
+  {
+    "objectID": "interface.html#헤더-메뉴-툴바-사이드바",
+    "href": "interface.html#헤더-메뉴-툴바-사이드바",
+    "title": "인터페이스",
+    "section": "헤더, 메뉴, 툴바, 사이드바",
+    "text": "헤더, 메뉴, 툴바, 사이드바\n\n에디터는 해당 에디터 영역의 머리띠에 해당하는 헤더를 가진다.\n일부 에디터는 메뉴, 툴바, 사이드바 등의 추가 요소를 가진다.",
+    "crumbs": [
+      "인터페이스",
+      "인터페이스"
+    ]
+  },
+  {
+    "objectID": "multiobjects.html",
+    "href": "multiobjects.html",
+    "title": "여러개의 오브젝트",
+    "section": "",
+    "text": "제한사항\n\n같은 유형의 오브젝트만 join 가능\n\n\n\n\n\njoin 연산은 메쉬를 결합하지 않음\n메쉬를 결합하려면 Boolean 연산을 해야 함",
+    "crumbs": [
+      "3D 모델링",
+      "여러개의 오브젝트"
+    ]
+  },
+  {
+    "objectID": "multiobjects.html#joinning",
+    "href": "multiobjects.html#joinning",
+    "title": "여러개의 오브젝트",
+    "section": "",
+    "text": "제한사항\n\n같은 유형의 오브젝트만 join 가능\n\n\n\n\n\njoin 연산은 메쉬를 결합하지 않음\n메쉬를 결합하려면 Boolean 연산을 해야 함",
+    "crumbs": [
+      "3D 모델링",
+      "여러개의 오브젝트"
+    ]
+  },
+  {
+    "objectID": "multiobjects.html#duplicate-linking",
+    "href": "multiobjects.html#duplicate-linking",
+    "title": "여러개의 오브젝트",
+    "section": "Duplicate Linking",
+    "text": "Duplicate Linking\n\nduplicated link 된 객체는 메시 데이터를 공유함\n하나를 edit 모드에서 수정하면 다른 객체도 공유\n따라서 transform 되어도 항상 전반적인 모양이 같음\nobject mode에서 복수를 선택해도 edit mode로 가면 하나만 편집 가능\n\n\n이미 존재하는 객체를 duplicated link하는 법\n\n객체를 멀티 선택\n마지막에 선택된 active 오브젝트가 소스가 된다.\n“Object” &gt; “Link/Transfer Data” &gt; “Link Object Data”\n\n\n\nduplicated link되어있는 객체를 분리하는 법\n\n“Object” &gt; “Relations” &gt; “Make Single User”",
+    "crumbs": [
+      "3D 모델링",
+      "여러개의 오브젝트"
+    ]
+  },
+  {
+    "objectID": "multiobjects.html#parenting",
+    "href": "multiobjects.html#parenting",
+    "title": "여러개의 오브젝트",
+    "section": "Parenting",
+    "text": "Parenting\n\n부모를 transform 하면 자식에게 동시 적용\n자식을 transform 하면 부모에게 적용되지는 않음\n\n\nParenting 방법\n\n객체를 멀티 선택\n마지막에 선택된 active 오브젝트가 parent가 된다.\n“Object” &gt; “Parent” &gt; “Object”\n\n\n\nparent 해제하는 법\n\n자식 선택\n“Object” &gt; “Parent” &gt; “Clear Parent”",
+    "crumbs": [
+      "3D 모델링",
+      "여러개의 오브젝트"
+    ]
+  },
+  {
+    "objectID": "multiobjects.html#collection",
+    "href": "multiobjects.html#collection",
+    "title": "여러개의 오브젝트",
+    "section": "Collection",
+    "text": "Collection",
+    "crumbs": [
+      "3D 모델링",
+      "여러개의 오브젝트"
+    ]
+  },
+  {
+    "objectID": "select.html",
+    "href": "select.html",
+    "title": "선택",
+    "section": "",
+    "text": "기본 선택 방법: 마우스 클릭\n\n선택된 오브젝트 경계가 오렌지색이 됨\n\n추가선택: Shift + 마우스 클릭\n\n새로 선택된 오브젝트의 경계가 오렌지색\n이미 선택되어 있던 오브젝트의 경계는 붉은색",
+    "crumbs": [
+      "인터페이스",
+      "선택"
+    ]
+  },
+  {
+    "objectID": "select.html#오브젝트-모드에서-선택",
+    "href": "select.html#오브젝트-모드에서-선택",
+    "title": "선택",
+    "section": "",
+    "text": "기본 선택 방법: 마우스 클릭\n\n선택된 오브젝트 경계가 오렌지색이 됨\n\n추가선택: Shift + 마우스 클릭\n\n새로 선택된 오브젝트의 경계가 오렌지색\n이미 선택되어 있던 오브젝트의 경계는 붉은색",
+    "crumbs": [
+      "인터페이스",
+      "선택"
+    ]
+  },
+  {
+    "objectID": "select.html#툴바-선택-메뉴",
+    "href": "select.html#툴바-선택-메뉴",
+    "title": "선택",
+    "section": "툴바 선택 메뉴",
+    "text": "툴바 선택 메뉴\n\n\n\n그림: 선택 메뉴\n\n\n\nTweak\nSelect Box\nSelect Circle\nSelect Lasso\n\n\n셀렉트 모드\n\n트윅을 제외한 나머지 셀렉트 방식에서는 셀렉트 모드 툴이 나타남\n\n\n\n\n그림: 셀렉트 모드 툴\n\n\n\nSet: 디폴트 모드. 선택할 때마다 선택된 객체들이 바뀜\nExtend: 선택할 때마다 추가. 기존 선택 + 추가 선택\nSubtract: 기존 선택에서 제외. 기존 선택 - 추가 선택\nDifference: 기존 선택 + 추가 선택 집합에서 중복 선택된 것은 제외\nIntersect: 기존 선택 + 추가 선택 집합에서 중복 선택된 것만 선택\n\n\n\n트윅 선택\n\n마우스 클릭으로 선택\nShift+클릭: 추가\n\n\n\n박스 선택\n\n마우스 “클릭-드래그”해서 생기는 사각형의 경계에 걸리는 오브젝트를 선택\nShift+선택: 추가\nContrl+선택: 제거\n\n\n\n서클 선택\n\n오브젝트 오리진이 원 안에 들어오는 경우에만 선택\nShitf+선택: 추가\nContrl+선택: 제거\n오브젝트 오리진 표시 방법\n\n“Viewport Overlays &gt; Objects &gt; Origins(All)” 선택\n\n선택 원 크기 조정\n\n\n\n\n그림: 선택 원 크기 조정",
+    "crumbs": [
+      "인터페이스",
+      "선택"
+    ]
+  },
+  {
+    "objectID": "select.html#에디트-모드에서-선택",
+    "href": "select.html#에디트-모드에서-선택",
+    "title": "선택",
+    "section": "에디트 모드에서 선택",
+    "text": "에디트 모드에서 선택\n\n에디트 모드에서는 vertex, edge, face 구분\n\n\n\n\n그림: 에디트 모드 선택 툴",
+    "crumbs": [
+      "인터페이스",
+      "선택"
+    ]
+  },
+  {
+    "objectID": "select.html#엑스레이",
+    "href": "select.html#엑스레이",
+    "title": "선택",
+    "section": "엑스레이",
+    "text": "엑스레이\n\n엑스레이 모드에서는 뒷쪽의 vertext, edge 등도 선택 가능\nface는 face origin이 가장 가까운 face가 선택됨\n\n\n\n\n그림: 엑스레이 도구",
+    "crumbs": [
+      "인터페이스",
+      "선택"
+    ]
+  },
+  {
+    "objectID": "start.html#디폴트-설정-로드",
+    "href": "start.html#디폴트-설정-로드",
+    "title": "처음 사용하기",
+    "section": "디폴트 설정 로드",
+    "text": "디폴트 설정 로드",
+    "crumbs": [
+      "블렌더",
+      "처음 사용하기"
+    ]
+  },
+  {
+    "objectID": "start.html#끝내기",
+    "href": "start.html#끝내기",
+    "title": "처음 사용하기",
+    "section": "끝내기",
+    "text": "끝내기",
+    "crumbs": [
+      "블렌더",
+      "처음 사용하기"
+    ]
+  },
+  {
+    "objectID": "transform_object.html",
+    "href": "transform_object.html",
+    "title": "오브젝트 모드 변형",
+    "section": "",
+    "text": "오브젝트 모드에서 기본 변형은\n\nMove\nRotate\nScale",
+    "crumbs": [
+      "3D 모델링",
+      "오브젝트 모드 변형"
+    ]
+  },
+  {
+    "objectID": "transform_object.html#변형-방법",
+    "href": "transform_object.html#변형-방법",
+    "title": "오브젝트 모드 변형",
+    "section": "변형 방법",
+    "text": "변형 방법\n\n메뉴\n툴바\n단축키\n\n\n메뉴\n\nObject &gt; Transform &gt; Move/Rotate/Scale\n\n\n\n\n그림: 트랜스폼 메뉴\n\n\n\n\n툴바와 기즈모\n\n\n\n그림: 툴바의 변형 툴\n\n\n\n툴바에서 Move, Rotate, Scale 툴을 선택하면 객체 선택시 객체에 기즈모가 표시됨\n해당 기즈모를 드래그하여 변형\n\n\n\n\n그림: Move 기즈모\n\n\n\n\n\n그림: Rotate 기즈모\n\n\n\n\n\n그림: Scale 기즈모\n\n\n\n객체 기즈모 고정\n\nViewport Gizmo 툴에서 “Object Gizmos”의 Move/Rotate/Scale 체크하면 툴 선택과 관계없이 항상 트랜스폼 기즈모가 표시됨\n\n\n\n\n그림: Object 기즈모 활성화\n\n\n\n\n\n그림: object 기즈모\n\n\n\n\n기즈모 사용시 조정 단축키\n\ncontrol+드래그: 그리드 간격으로 조정\nshift+드래그: 세밀한 조정\ncontrol+shift+드래그: 세밀한 그리드 간격으로 조정",
+    "crumbs": [
+      "3D 모델링",
+      "오브젝트 모드 변형"
+    ]
+  },
+  {
+    "objectID": "transform_object.html#last-action-panel",
+    "href": "transform_object.html#last-action-panel",
+    "title": "오브젝트 모드 변형",
+    "section": "last action panel",
+    "text": "last action panel\n\n변환을 하면 생기는 좌측 하단의 패널\n방금한 변환을 파라미터 조정을 통해 바꿀 수 있음\n정밀한 조정시 사용\n\n\n\n\n그림: last action panel",
+    "crumbs": [
+      "3D 모델링",
+      "오브젝트 모드 변형"
+    ]
+  },
+  {
+    "objectID": "transform_object.html#단축키",
+    "href": "transform_object.html#단축키",
+    "title": "오브젝트 모드 변형",
+    "section": "단축키",
+    "text": "단축키\n\n다음 단축키로도 변환\n\nG + 조건 + 숫자 파라미터 + enter\nR + 조건 + 숫자 파라미터 + enter\nS + 조건 + 숫자 파라미터 + enter\n\n조건\n\nX\nY\nZ\nX &gt; X\nY &gt; Y\nZ &gt; Z\nshift+X\nshift+Y\nshift+Z\nshift+X &gt; shift+X\nshift+Y &gt; shift+Y\nshift+Z &gt; shift+Z",
+    "crumbs": [
+      "3D 모델링",
+      "오브젝트 모드 변형"
+    ]
+  },
+  {
+    "objectID": "transform_object.html#사이드바",
+    "href": "transform_object.html#사이드바",
+    "title": "오브젝트 모드 변형",
+    "section": "사이드바",
+    "text": "사이드바\n\n사이드바 &gt; Item &gt; Transform\n절대 위치로 변형 가능",
+    "crumbs": [
+      "3D 모델링",
+      "오브젝트 모드 변형"
+    ]
+  }
+]
