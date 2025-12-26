@@ -41,14 +41,12 @@ website:
       - section: "3D 모델링"
         contents:
           - "3d_intro.ipynb"
-          - "transform_object.ipynb"
-          - section: "에디트 모드 변형"
-            contents:
-              - "transform_edit.ipynb"
-              - "newobjects.ipynb"
-              - "subdivide.ipynb"
-          - "add.ipynb"
+          - "basic_object_transform.ipynb"
+          - "add_object.ipynb"
+          - "add_vertex_edge_face.ipynb"
           - "multiobjects.ipynb"
+          - "subdivide.ipynb"
+          - "extrude.ipynb"
       - section: "2D 애니메이션"
         contents:
           - "2d_intro.ipynb"
