@@ -47,6 +47,7 @@ website:
           - "multiobjects.ipynb"
           - "subdivide.ipynb"
           - "extrude.ipynb"
+          - "modifier.ipynb"
       - section: "2D 애니메이션"
         contents:
           - "2d_intro.ipynb"
